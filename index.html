@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro DNC</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="div-principal">
+        <div id ='div-imagem'>
+            <img src="./dnc-logo.svg"></img>
+        </div>
+        <div id ='div-forms'>
+            <img src="./jumpy-logo.svg"></img>
+            <p class="bemvindo">Bem Vindo ao Jumpy!</p>
+
+            <forms>
+                <div id="name">
+                    <label for="fname">Nome Completo:</label><br>
+                    <input class='input-forms' type="text" id="f-name" name="fname" placeholder="Nome Colpleto"><br>
+                </div>
+
+                <div id="email">
+                    <label for="f-email">E-mail:</label><br>
+                    <input class='input-forms' type="email" id="f-email" name="f-email" placeholder="exemplo@dnc.com.br"><br>
+                </div>
+
+                <div id="phone">
+                    <label for="f-tel">Telefone:</label><br>
+                    <input class='input-forms' type="phone" id="f-tel" name="f-tel" placeholder="+00 (00) 00000-0000"><br>
+                </div>
+
+                <div id="cpf">
+                    <label for="f-cpf">CPF:</label><br>
+                    <input class='input-forms' type="number" id="f-cpf" name="f-cpf" placeholder="000.000.000-00"><br>
+                </div>
+
+                <div id="senha">
+
+                    <label for="f-senha">Senha:</label><br>
+                    <input class='input-forms' type="password" id="f-senha" name="f-senha" placeholder="00000000"><br>
+                </div>
+                
+                <div id="submit-button">
+                    <input class="input-submit" type="submit" value="Cadastrar" onclick="on_submit()">
+                </div>
+
+            </forms>
+
+
+        </div>
+
+
+
+    <div>
+    <script src="./index.js"></script>
+</html>
